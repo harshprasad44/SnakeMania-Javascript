@@ -16,6 +16,18 @@
 #board {
   background: linear-gradient(green, yellow);
   width: 90vmin;
-  /* jo bi chhota hoga vh aur vw me and for v max vice versa */
+  /* whatever will be smaller in vh or vw and for v max vice versa */
   height: 90vmin;
+  border: 2px solid black;
+  display: grid;
+  grid-template-rows: repeat(18, 1fr);
+  grid-template-columns: repeat(18, 1fr);
+}
+
+.head {
+  background-color: red;
+}
+
+.food {
+  background-color: purple;
 }
